@@ -80,7 +80,7 @@ public class BankTask extends Task {
       }
 
       //-2 means it'll press +5% twice, change to -1 or -3 if you want to buy slwoer/faster
-      service.submit(StockMarketable.Type.BUY, new StockMarketEntry(next.getGrimyId(), 13000, -2));
+      service.submit(StockMarketable.Type.BUY, new StockMarketEntry(next.getGrimyId(), 11000, -2));
       //TODO submit selling here so it does it all together
     });
 
